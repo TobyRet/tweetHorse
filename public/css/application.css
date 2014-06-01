@@ -34,5 +34,5 @@ body {
 }
 
 .grad {
-	background: linear-gradient(white, white 85%, #F2F2F2); /* Standard syntax */
+	background: linear-gradient(white, white 85%, #F5F5F5); /* Standard syntax */
 }
