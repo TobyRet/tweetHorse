@@ -1,24 +1,38 @@
 body {
 	font-family: arial;
+	font-size: 1em;
 }
 
 .tweet {
-	max-width: 50%;
-	border: 1px solid gray;
-	padding: 15px;
+	border: 1px solid #EBEBEB;
+	padding: 10px;
 	border-radius: 5px;
+	max-width: 50%;
 }
 
 .tweet_avatar {
 	display: inline-block;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .picture {
-	
+	border-radius: 5px;
 }
 
-.tweet_content {
-	display: inline-block;
-	font-variant: top;
+.date {
+	float: right;
+	font-size: 0.9em;
+}
+
+.date, .handle {
+	color: #B0B0B0;
+	text-decoration: none;
+}
+
+.right {
+	margin-left: 0;
+}
+
+.grad {
+	background: linear-gradient(white, white 85%, #F2F2F2); /* Standard syntax */
 }
